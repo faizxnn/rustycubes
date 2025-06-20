@@ -35,11 +35,25 @@
     <tspan x="50" dy="0">Use arrow keys to rotate. Ctrl+C to exit.</tspan>
   </text>
   
-  <!-- Animation indicators -->
-  <text x="400" y="100" font-family="Monaco, 'Courier New', monospace" font-size="12" fill="#f85149">
-    <tspan x="400" dy="0">🎮 Interactive!</tspan>
-    <tspan x="400" dy="20">⚡ Real-time</tspan>
-    <tspan x="400" dy="20">🦀 Pure Rust</tspan>
-    <tspan x="400" dy="20">📺 Terminal</tspan>
+  <!-- Arrow Keys Display -->
+  <!-- Up Arrow Key -->
+  <rect x="430" y="100" width="40" height="30" fill="#21262d" stroke="#30363d" stroke-width="1" rx="4"/>
+  <polygon points="450,110 445,120 455,120" fill="#7c3aed"/>
+  
+  <!-- Left Arrow Key -->
+  <rect x="380" y="140" width="40" height="30" fill="#21262d" stroke="#30363d" stroke-width="1" rx="4"/>
+  <polygon points="390,155 400,150 400,160" fill="#7c3aed"/>
+  
+  <!-- Down Arrow Key -->
+  <rect x="430" y="140" width="40" height="30" fill="#21262d" stroke="#30363d" stroke-width="1" rx="4"/>
+  <polygon points="450,160 445,150 455,150" fill="#7c3aed"/>
+  
+  <!-- Right Arrow Key -->
+  <rect x="480" y="140" width="40" height="30" fill="#21262d" stroke="#30363d" stroke-width="1" rx="4"/>
+  <polygon points="500,155 490,150 490,160" fill="#7c3aed"/>
+  
+  <!-- Control label -->
+  <text x="430" y="200" font-family="Monaco, 'Courier New', monospace" font-size="11" fill="#8b949e" text-anchor="middle">
+    <tspan x="430" dy="0">Controls</tspan>
   </text>
 </svg> 
